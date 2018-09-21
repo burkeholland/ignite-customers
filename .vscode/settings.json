@@ -1,0 +1,19 @@
+{
+  "appService.deploySubpath": "",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/*.js": true,
+    "**/*.js.map": true
+  },
+  "appService.zipIgnorePattern": [
+    "node_modules/**",
+    "**/*.js",
+    "**/*.js.map"
+  ],
+  "docker.defaultRegistryPath": "burkeholland",
+  "appService.defaultWebAppToDeploy": "/subscriptions/31d26d4a-5ae9-45ef-9917-f6b0a7a9c883/resourceGroups/IgniteNodeResourceGroup/providers/Microsoft.Web/sites/ignite-node",
+}
